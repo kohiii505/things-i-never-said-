@@ -2,211 +2,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>six months of us ♡</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>things i never said ♡</title>
 
-<style>
-* {
-  box-sizing: border-box;
-}
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-body {
-  margin: 0;
-  min-height: 100vh;
-  background: #090708;
-  color: #f4e8eb;
-  font-family: Georgia, serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 24px;
-}
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #080808;
+      color: #f5eeee;
+      font-family: Georgia, "Times New Roman", serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 25px;
+    }
 
-.container {
-  max-width: 390px;
-  width: 100%;
-}
+    .container {
+      width: 100%;
+      max-width: 560px;
+      text-align: center;
+      padding: 35px 22px;
+    }
 
-.small {
-  color: #a66a76;
-  font: 10px monospace;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-}
+    .date {
+      color: #a66b75;
+      font-family: monospace;
+      font-size: 12px;
+      letter-spacing: 4px;
+      margin-bottom: 24px;
+    }
 
-h1 {
-  font-size: clamp(34px, 9vw, 48px);
-  font-weight: normal;
-  margin: 22px 0 10px;
-}
+    h1 {
+      font-size: clamp(30px, 7vw, 43px);
+      font-weight: normal;
+      margin: 0 0 12px;
+    }
 
-h1 span {
-  color: #b52c46;
-}
+    .subtitle {
+      color: #a99b9d;
+      font-size: 14px;
+      line-height: 1.8;
+      margin-bottom: 35px;
+    }
 
-.subtitle {
-  color: #a99a9f;
-  font-size: 14px;
-  line-height: 1.8;
-}
+    .heart-button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 20px;
+      margin: 0 auto 22px;
+      display: block;
+    }
 
-.heart-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  margin: 35px 0 20px;
-  padding: 12px;
-  color: #c52d49;
-  transition: transform .25s;
-}
+    .heart {
+      color: #a51632;
+      font-size: 75px;
+      text-shadow: 0 0 22px #5e0b1c;
+      animation: beat 1.4s infinite;
+      display: inline-block;
+      transition: transform 0.3s;
+    }
 
-.heart-button:hover {
-  transform: scale(1.12);
-}
+    .heart-button:hover .heart {
+      transform: scale(1.15);
+    }
 
-.pixel-heart {
-  font-family: monospace;
-  font-size: 72px;
-  text-shadow: 0 0 25px #7d142b;
-  animation: pulse 1.5s infinite;
-}
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.09); }
+    }
 
-@keyframes pulse {
-  50% { transform: scale(1.09); }
-}
+    .hint {
+      color: #827477;
+      font-size: 12px;
+      letter-spacing: 1px;
+      margin-bottom: 35px;
+    }
 
-.hint {
-  font: 11px monospace;
-  color: #8f727b;
-  letter-spacing: 1px;
-}
+    .letter {
+      display: none;
+      text-align: left;
+      background: #100b0c;
+      border: 1px solid #392027;
+      padding: 28px 23px;
+      border-radius: 3px;
+      animation: appear 0.8s ease;
+    }
 
-.letter {
-  display: none;
-  text-align: left;
-  border-top: 1px solid #51202c;
-  margin-top: 28px;
-  padding-top: 24px;
-  animation: appear .8s ease;
-}
+    .letter.show {
+      display: block;
+    }
 
-.letter.show {
-  display: block;
-}
+    @keyframes appear {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
 
-.letter h2 {
-  font-size: 23px;
-  font-weight: normal;
-  color: #d95b72;
-  text-align: center;
-}
+    .letter h2 {
+      color: #d5a0a8;
+      font-weight: normal;
+      font-size: 23px;
+      margin-top: 0;
+      margin-bottom: 25px;
+    }
 
-.letter p {
-  font-size: 15px;
-  line-height: 1.95;
-  color: #d8c7cc;
-}
+    .letter p {
+      color: #e4d9da;
+      font-size: 15px;
+      line-height: 1.95;
+      white-space: pre-line;
+      margin-bottom: 20px;
+    }
 
-.signature {
-  text-align: right;
-  color: #d95b72 !important;
-  font-style: italic;
-}
+    .signature {
+      color: #c47b88 !important;
+      margin-top: 28px;
+    }
 
-.footer {
-  margin-top: 36px;
-  color: #604650;
-  font: 10px monospace;
-  letter-spacing: 2px;
-}
-
-</style>
+    footer {
+      color: #625155;
+      font-size: 11px;
+      margin-top: 35px;
+      letter-spacing: 1px;
+    }
+  </style>
 </head>
 
 <body>
-<main class="container">
+  <main class="container">
 
-  <div class="small">a little something for you</div>
+    <div class="date">26 · 10 · 26</div>
 
-  <h1>six months <span>♡</span><br>of us.</h1>
+    <h1>half a year with you.</h1>
 
-  <p class="subtitle">
-    six months of memories,<br>
-    laughter, and being your favourite nuisance.
-  </p>
-
-  <button class="heart-button" id="heart"
-          aria-label="Open your letter">
-    <div class="pixel-heart">♥</div>
-  </button>
-
-  <div class="hint" id="hint">[ CLICK THE LITTLE HEART ]</div>
-
-  <section class="letter" id="letter">
-    <h2>hey, nanu. ♡</h2>
-
-    <p>
-      happy six months to us, sky.
+    <p class="subtitle">
+      six months of us.<br>
+      and still so many things i want you to know.
     </p>
 
-    <p>
-      it's kind of crazy that it's already been
-      half a year. somewhere between all our
-      conversations, our stupid jokes, and the
-      little moments, you became someone so
-      important to me.
-    </p>
+    <button
+      class="heart-button"
+      id="heartButton"
+      aria-label="Open your letter"
+      aria-expanded="false"
+      aria-controls="letter"
+    >
+      <span class="heart">♥</span>
+    </button>
 
-    <p>
-      i don't think i could fit everything i feel
-      into one little website. but i hope you know
-      that i'm really glad it's you. i'm glad i get
-      to know you, care about you, and make
-      memories with you.
-    </p>
+    <div class="hint" id="hint">click the heart, nanu.</div>
 
-    <p>
-      here's to month seven, more memories,
-      more laughter, and me continuing to
-      annoy you for absolutely no reason.
-      you're welcome, actually.
-    </p>
+    <section class="letter" id="letter">
+      <h2>to my nanu, ♡</h2>
 
-    <p>
-      six months down, and you're still my
-      favourite person to bother. ♡
-    </p>
+      <p>
+i love you sm and i genuinely don't think you know how much of a difference it makes when you say ma chu ta and that you're genuinely proud of me xya 😭
 
-    <p class="signature">
-      yours, always in the little ways that matter.
-    </p>
-  </section>
+i'm crying writing ts and i swear i'll be back to myself js give me some time.
 
-  <div class="footer">MADE WITH LOVE · 26.10.26</div>
+and i love you so much. i'm so proud of you, i really am proud of you. i hope you know that, even on the days when you can't see it yourself.
 
-</main>
+you're going to heal and be an amazing father and an amazing husband and an amazing human being. i believe in you so much, even when things feel difficult and you don't believe in yourself.
 
-<script>
-const heart = document.getElementById("heart");
-const letter = document.getElementById("letter");
-const hint = document.getElementById("hint");
+i love you sm. these days suck, but i'm staying no matter what. i see how hard you try everyday, even the little things you probably think nobody notices. i see them, nanu. i really do.
 
-heart.addEventListener("click", () => {
-  letter.classList.toggle("show");
+you don't have to have everything figured out right now. you don't have to be okay all the time. i'm proud of you for trying, and i'm proud of the person you're becoming.
 
-  if (letter.classList.contains("show")) {
-    hint.textContent = "[ A LITTLE LETTER FOR YOU ♡ ]";
-    letter.scrollIntoView({
-      behavior: "smooth",
-      block: "nearest"
+you're the best. forehead mwah. 😭
+
+and again, happy six months together nanuuu. I LOVE YOU SO MUCH IT HURTS. ♡
+      </p>
+
+      <p class="signature">
+        always cheering for you,<br>
+        your person. ♥
+      </p>
+    </section>
+
+    <footer>made with love · for us, always</footer>
+
+  </main>
+
+  <script>
+    const heartButton = document.getElementById("heartButton");
+    const letter = document.getElementById("letter");
+    const hint = document.getElementById("hint");
+
+    heartButton.addEventListener("click", () => {
+      const isOpen = letter.classList.toggle("show");
+
+      heartButton.setAttribute("aria-expanded", isOpen);
+      hint.textContent = isOpen
+        ? "a little piece of my heart, just for you."
+        : "click the heart, nanu.";
     });
-  } else {
-    hint.textContent = "[ CLICK THE LITTLE HEART ]";
-  }
-});
-</script>
-
+  </script>
 </body>
 </html>
